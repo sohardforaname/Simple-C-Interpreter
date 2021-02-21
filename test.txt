@@ -1,0 +1,14 @@
+int a;
+int main()
+{
+    int a=10, b=5;
+    while(a) 
+    {
+        if(b<10)
+        {
+            b=b+1;
+        }
+        printf("%d%c",a+b,'\n');
+        a = a-1;
+    }
+}
